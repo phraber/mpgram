@@ -1,0 +1,22 @@
+Package: mpgram
+Type: Package
+Title: Shiny Interface to PixelGram
+Version: 0.9
+Date: 2016-03-08
+Authors@R: person("Peter", "Hraber", email="peterhraber@gmail.com", role=c("aut", "cre", "cph"))
+Description: This provides an interactive shiny interface to the pixelgram package.
+Depends:
+    R (>= 3.1.1)
+License: GPL-2
+Copyright: Copyright (C) 2016 Peter Hraber
+LazyData: true
+Imports:
+    shiny,
+    pixelgram
+Suggests:
+    knitr,
+    seqinr,
+    ape,
+    devtools
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
