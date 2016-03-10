@@ -19,10 +19,10 @@ shinyUI(
 
     fluidPage(
 
-        includeCSS("hiv-de.css"),
+        #includeCSS("hiv-de.css"),
 
         tags$head(
-            tags$link(rel="stylesheet", type="text/css", href="hiv-de.css")
+        #    tags$link(rel="stylesheet", type="text/css", href="hiv-de.css")
         ),
 
         titlePanel("PixelGram: Pairs a Pixel plot of your alignment with a tree drawn as phyloGram, one row per sequence"),
